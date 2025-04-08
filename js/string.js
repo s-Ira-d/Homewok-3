@@ -1,0 +1,16 @@
+let result = 5 + 5 + "5";
+console.log(result);
+console.log(typeof result);
+const email = "@student231022@slav4.com";
+const checkSymbol = email.includes("@");
+console.log(checkSymbol);
+const emailLenghts = email.length;
+console.log(emailLenghts);
+const my = "my";
+const name = "name";
+const is = "is";
+const fullName = my + " " + name + " " + is + " Viktor";
+console.log(fullName);
+const userName = "Олександро";
+const payment = 300;
+alert(`Дякуємо, ${userName}! До сплати ${payment} гривень`);
